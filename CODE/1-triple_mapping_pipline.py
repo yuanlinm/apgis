@@ -174,8 +174,8 @@ def process_city(city_row, pop_data, lon_origin, lat_max, lon_res, lat_res, poll
 
 def main():
     parser = argparse.ArgumentParser(description='Triple mapping pipeline (population - pollutant) with per-city outputs')
-    parser.add_argument('--years', required=True, help='年份，例如 2000 或 2000-2021 或 2000,2005,2010')
-    parser.add_argument('--pollutant-template', required=True, help='污染物NC路径模板，使用{year}占位符，例如 data/.../CHAP_PM2.5_Y1K_{year}_V4.nc')
+    parser.add_argument('--years', default='2000-2021', help='年份，例如 2000 或 2000-2021 或 2000,2005,2010')
+    parser.add_argument('--pollutant-template', default='data/3.1-CHAP_PM25_avgY_1K_2000_2021_V3/CHAP_PM2.5_Y1K_{year}_V4.nc', help='污染物NC路径模板，使用{year}占位符，例如 data/.../CHAP_PM2.5_Y1K_{year}_V4.nc')
     parser.add_argument('--pollutant-var', default='PM2.5', help='NC变量名，PM2.5或Ozone变量名')
     parser.add_argument('--pollutant-name', default='pm25', help='输出使用的污染物名称，用于文件夹命名，如 pm25 或 ozone')
     parser.add_argument('--pop-template', default='data/2-LandScan/landscan-global-{year}-assets/lsglobal_{year}.tif', help='人口数据TIF模板，使用{year}占位符')
