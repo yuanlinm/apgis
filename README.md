@@ -6,7 +6,7 @@
 ```
 GIS/
 ├── 1-中国市界行政区划/          # 城市边界Shapefile
-├── 2-LandScan/                  # 2000-2021年人口栅格数据(TIFF)
+├── 2-LandScan/                  # 人口栅格数据(TIFF)
 ├── 3-CHAP_Ozone_avgY_1K_2000_2024_V3/   # 2000-2024年臭氧数据(NetCDF)
 ├── 3-CHAP_PM25_avgY_1K_2000_2021_V4/    # 2000-2021年PM2.5数据(NetCDF)
 ├── CODE/
