@@ -19,7 +19,7 @@ python3 CODE/1-POP_AP_MAPPING.py \
 *Output:*
 ```bash
 OUTPUT/mapping/{pollutant_name}/{year}/{省}/{市}/
-├── triple_mapping.csv          # 像素级数据(经纬度、人口、污染物)**# Pixel-level data (latitude and longitude, population, pollutants)
+├── triple_mapping.csv          # Pixel-level data (latitude and longitude, population, pollutants)
 ├── triple_mapping.nc           # NetCDF format pixel data
 ├── preview.png                 # Spatial Distribution Visualization
 └── stats.json                  # Statistical Indicators
