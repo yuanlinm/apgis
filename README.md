@@ -1,8 +1,7 @@
 ## APGIS: All files and code in this repository are currently in the testing phase.
 
 #### 1. POP_AP_MAPPING
-
-# run
+**run**
 ```bash
 cd /path/to/GIS
 bash CODE/0-RUN.bash_command_all.sh
