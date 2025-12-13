@@ -9,7 +9,7 @@ bash CODE/0-RUN.bash_command_all.sh
 
 python3 CODE/1-triple_mapping_pipline.py \
   --years 1990-2025 \
-  --pollutant-template "3-PM2.5_V3/PM2.5_{year}_V3.nc" \
+  --pollutant-template "PM2.5_V3/PM2.5_{year}_V3.nc" \
   --pollutant-var PM2.5 \
   --pollutant-name pm25 \
   --pop-template "2-LandScan/landscan-global-{year}-assets/landscan-global-{year}.tif" \
