@@ -19,10 +19,7 @@ GIS/
 ```bash
 cd /path/to/GIS
 bash CODE/0-RUN.bash_command_all.sh
-```
 
-# run
-```bash
 python3 CODE/1-triple_mapping_pipline.py \
   --years 2000-2021 \
   --pollutant-template "3-CHAP_Ozone_avgY_1K_2000_2024_V3/CHAP_O3_Y1K_{year}_V3.nc" \
