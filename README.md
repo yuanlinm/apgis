@@ -26,7 +26,7 @@ OUTPUT/mapping/{pollutant_name}/{year}/{省}/{市}/
 ```
 
 *Requirements:*
-| package       | version        | use                   |
+| package       | version        | for                   |
 | ---------- | ----------- | ---------------------- |
 | numpy      | 2.3.5+      | Numerical computation and array operations     |
 | pandas     | 2.3.3+      | Data processing and CSV output      |
